@@ -29,8 +29,7 @@ jobs:
       
     - name: Run the tests
       run: |
-            npm install
-            npm i react-scripts --save
+            npm start
             cd frontend
             npm test
       
